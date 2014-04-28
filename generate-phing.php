@@ -95,7 +95,7 @@ function getNameAndType($string) {
 				break;
 			case 'B':
 			case 'C':
-				$type = 'Task';
+				$type = 'Method';
 				break;
 			case 'D':
 				$type = 'Type';
