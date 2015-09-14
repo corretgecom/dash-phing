@@ -84,6 +84,9 @@ foreach ($dom->getElementsByTagName("a") as $a) {
 	}
 }
 
+
+exec('tar -czvf Phing.docset.tgz Phing.docset/');
+
 function getNameAndType($string) {
 	if(preg_match('/(^[A-Z]|\d+)\.(?:\d+\.)?\ (.*?)$/', $string, $matches)) {
 		$rawType = trim($matches[1]);
